@@ -1,0 +1,21 @@
+.AddButton {
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgb(23, 20, 155);
+  color: white;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.AddButton:hover {
+  background-color: rgb(23, 20, 155, 0.7);
+}
+
+.AddButton:disabled {
+  background-color: rgb(23, 20, 155, 0.5);
+}

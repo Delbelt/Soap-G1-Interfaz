@@ -1,0 +1,24 @@
+.listLineBreak {
+  border: 2px solid;
+  width: 296px;
+  margin: 0;
+  padding: 0;
+}
+
+.containerFilter {
+  width: 400px;
+  height: max-content;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 12px 1px;
+  margin: 1rem;
+  background-color: rgb(223, 223, 223);
+}
+
+.containerPrincipal {
+  align-items: start;
+  flex-direction: row-reverse;
+}
+
+.containerList {
+  margin-left: 20rem;
+}

@@ -1,0 +1,9 @@
+.cardContainerPrincipal {
+  border: 1px solid gray;
+  box-shadow: 0px 0px 12px 1px;
+  border-radius: 4px;
+  width: 50%;
+  height: max-content;
+  padding: 1rem;
+  display: flex;
+}

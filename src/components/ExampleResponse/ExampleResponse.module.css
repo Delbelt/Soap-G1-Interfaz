@@ -1,0 +1,82 @@
+.appContainerColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.appTitle {
+  background-color: gainsboro;
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.appCard {
+  background-color: gainsboro;
+  width: 250px;
+  height: max-content;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.appButton {
+  padding: 1rem;
+  font-size: 25px;
+}
+
+.appButton:hover {
+  cursor: pointer;
+  opacity: 1.5;
+}
+
+.appText {
+  font-size: 20px;
+}
+
+.appCardStatus {
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.idle,
+.loading,
+.successfull,
+.rejected {
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.idle,
+.loading {
+  color: #ffffe0;
+}
+
+.loading {
+  animation: blinking 1s infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+.successfull {
+  color: green;
+}
+
+.rejected {
+  color: rgb(255, 18, 18);
+}

@@ -1,0 +1,54 @@
+.loginContainer {
+  margin-top: 5rem;
+  gap: 3rem;
+}
+
+.customCard {
+  width: 500px;
+}
+
+.viewFormContainer {
+  margin: 1rem;
+}
+
+.loginContainerError {
+  width: 300px;
+  margin-top: 2rem;
+  font-size: 0.6em;
+  border: 2px solid red !important;
+  box-shadow: none !important;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loginInput {
+  width: 240px;
+  height: 25px;
+  font-size: 1em;
+  padding: 0.3rem;
+  line-height: 25px;
+  border: 1px solid;
+  box-shadow: none;
+}
+
+.loginSubmit {
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgb(23, 20, 155);
+  color: white;
+}
+
+.loginSubmit:hover {
+  background-color: rgb(23, 20, 155, 0.7);
+}
+
+.loginSubmit:disabled {
+  background-color: rgb(23, 20, 155, 0.5);
+}

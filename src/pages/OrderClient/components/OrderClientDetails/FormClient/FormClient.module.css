@@ -1,0 +1,35 @@
+.containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.inputForm {
+  width: 100%;
+}
+
+.loginSubmit {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: rgb(23, 20, 155);
+  color: white;
+}
+
+.loginSubmit:hover {
+  background-color: rgb(23, 20, 155, 0.7);
+}
+
+.loginSubmit:disabled {
+  background-color: rgb(23, 20, 155, 0.5);
+}
+
+.messageForm {
+  font-size: 20px;
+}

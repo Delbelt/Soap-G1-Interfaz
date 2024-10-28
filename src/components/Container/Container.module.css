@@ -1,0 +1,34 @@
+.containerPrincipal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.right {
+  align-items: end;
+  justify-content: end;
+  justify-items: end;
+}
+
+.left {
+  align-items: start;
+  justify-content: start;
+  justify-items: start;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  gap: 2rem;
+}

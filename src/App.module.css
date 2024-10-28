@@ -1,0 +1,16 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+input {
+  width: max-content;
+  height: 25px;
+  font-size: 1em;
+  padding: 0.3rem;
+  line-height: 25px;
+  border: 1px solid;
+  box-shadow: none;
+}
